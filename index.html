@@ -277,15 +277,11 @@
                                     class="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-5xl"
                                     data-aos="fade-up"
                                 >
-                                    Campañas audiovisuales con IA y control total
+                                    Llevamos tus videos al siguiente nivel
                                 </h1>
                                 <div class="mx-auto max-w-3xl">
                                     <p class="mb-8 text-xl text-indigo-200/65" data-aos="fade-up" data-aos-delay="200">
-                                        Somos una productora que genera campañas audiovisuales para empresas utilizando
-                                        IA. No utilizamos plataformas como Sora o VEO; trabajamos con procesos propios
-                                        para crear piezas únicas, mantener la consistencia y tener control total desde
-                                        videos cortos hasta cortometrajes. Somos ideales para nuevas campañas o para dar
-                                        continuidad a historias que ya funcionaron sin perder coherencia visual.
+                                        Producimos tus campañas de video con las mejores herramientas y profesionales de Inteligencia Artificial
                                     </p>
                                     <div class="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
                                         <div data-aos="fade-up" data-aos-delay="400">
@@ -1090,189 +1086,6 @@
                     </div>
                 </section>
 
-                <!-- Pricing -->
-                <section class="relative">
-                    <div
-                        class="pointer-events-none absolute bottom-0 left-1/2 -z-10 -mb-20 -translate-x-1/3"
-                        aria-hidden="true"
-                    >
-                        <img
-                            class="max-w-none"
-                            src="./images/blurred-shape.svg"
-                            width="760"
-                            height="668"
-                            alt="Forma difuminada"
-                        />
-                    </div>
-
-                    <div class="mx-auto max-w-6xl px-4 sm:px-6">
-                        <div
-                            class="border-t py-12 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-400/.25),transparent)1] md:py-20"
-                        >
-                            <!-- Section header -->
-                            <div class="mx-auto max-w-3xl text-center">
-                                <div
-                                    class="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50"
-                                >
-                                    <span
-                                        class="inline-flex bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent"
-                                        >Planes simples</span
-                                    >
-                                </div>
-                                <h2
-                                    class="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-10 font-nacelle text-3xl font-semibold text-transparent md:text-4xl"
-                                >
-                                    Elige el plan adecuado para tu producción
-                                </h2>
-                            </div>
-
-                            <!-- Pricing tables -->
-                            <div x-data="{ isAnnual: true }">
-                                <!-- Pricing toggle -->
-                                <label
-                                    class="mb-16 flex cursor-pointer items-center justify-center gap-4 text-indigo-200/65"
-                                >
-                                    <span class="flex-1 text-right" aria-hidden="true">Facturado anualmente</span>
-                                    <span class="sr-only">Facturado anualmente</span>
-                                    <input
-                                        role="switch"
-                                        type="checkbox"
-                                        class="peer sr-only"
-                                        x-model="isAnnual"
-                                        :checked="isAnnual"
-                                    />
-                                    <div
-                                        class="peer relative h-6 w-11 rounded-full bg-gray-800 after:absolute after:start-[2px] after:top-0.5 after:h-5 after:w-5 after:rounded-full after:bg-gray-200 after:transition-all peer-checked:bg-indigo-500 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus-visible:ring-4 peer-focus-visible:ring-indigo-200"
-                                        aria-hidden="true"
-                                    ></div>
-                                    <span class="flex-1 text-left" aria-hidden="true">Facturado mensualmente</span>
-                                </label>
-
-                                <div
-                                    class="mx-auto grid max-w-xs items-start gap-8 md:max-w-2xl md:grid-cols-2 xl:max-w-none xl:grid-cols-4 xl:gap-6"
-                                >
-                                    <!-- Pricing table 1 -->
-                                    <div
-                                        class="relative flex h-full flex-col rounded-2xl bg-linear-to-br from-gray-900/50 via-gray-800/25 to-gray-900/50 p-5 backdrop-blur-xs before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)]"
-                                    >
-                                        <div
-                                            class="relative mb-4 border-b pb-5 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-400/.25),transparent)1]"
-                                        >
-                                            <div class="mb-2 font-nacelle text-[1rem] text-gray-200">Independiente</div>
-                                            <div class="mb-1.5 flex items-baseline font-nacelle">
-                                                <span class="text-2xl text-indigo-200/65">$</span>
-                                                <span
-                                                    x-text="isAnnual ? 7 : 9"
-                                                    class="text-4xl font-semibold tabular-nums text-gray-200"
-                                                    >7</span
-                                                >
-                                            </div>
-                                            <div class="mb-4 grow text-xs text-indigo-200/65">
-                                                Por usuario/mes, facturado anualmente.
-                                            </div>
-                                            <a
-                                                class="btn-sm relative w-full bg-linear-to-b from-gray-800 to-gray-800/60 bg-[length:100%_100%] bg-[bottom] text-gray-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%]"
-                                                href="#0"
-                                                >Comenzar prueba</a
-                                            >
-                                        </div>
-                                        <p class="mb-4 text-sm italic text-gray-200">El plan Independiente incluye:</p>
-                                        <ul class="grow space-y-2 text-sm text-indigo-200/65">
-                                            <li class="flex items-center">
-                                                <svg
-                                                    class="mr-2 h-3 w-3 shrink-0 fill-current text-indigo-500"
-                                                    viewBox="0 0 12 12"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                >
-                                                    <path
-                                                        d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
-                                                    />
-                                                </svg>
-                                                <span>50 usuarios al mes</span>
-                                            </li>
-                                            <li class="flex items-center">
-                                                <svg
-                                                    class="mr-2 h-3 w-3 shrink-0 fill-current text-indigo-500"
-                                                    viewBox="0 0 12 12"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                >
-                                                    <path
-                                                        d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
-                                                    />
-                                                </svg>
-                                                <span>Soporte por correo, chat y WhatsApp</span>
-                                            </li>
-                                            <li class="flex items-center">
-                                                <svg
-                                                    class="mr-2 h-3 w-3 shrink-0 fill-current text-indigo-500"
-                                                    viewBox="0 0 12 12"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                >
-                                                    <path
-                                                        d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
-                                                    />
-                                                </svg>
-                                                <span>Paneles ilimitados</span>
-                                            </li>
-                                            <li class="flex items-center">
-                                                <svg
-                                                    class="mr-2 h-3 w-3 shrink-0 fill-current text-indigo-500"
-                                                    viewBox="0 0 12 12"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                >
-                                                    <path
-                                                        d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
-                                                    />
-                                                </svg>
-                                                <span>Integraciones personalizadas</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                    <!-- Pricing table 2 -->
-                                    <div
-                                        class="relative flex h-full flex-col rounded-2xl bg-linear-to-br from-gray-900/50 via-gray-800/25 to-gray-900/50 p-5 backdrop-blur-xs before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)]"
-                                    >
-                                        <div
-                                            class="relative mb-4 border-b pb-5 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-400/.25),transparent)1]"
-                                        >
-                                            <div class="mb-2 font-nacelle text-[1rem] text-gray-200">Equipo pequeño</div>
-                                            <div class="mb-1.5 flex items-baseline font-nacelle">
-                                                <span class="text-2xl text-indigo-200/65">$</span>
-                                                <span
-                                                    x-text="isAnnual ? 27 : 29"
-                                                    class="text-4xl font-semibold tabular-nums text-gray-200"
-                                                    >27</span
-                                                >
-                                            </div>
-                                            <div class="mb-4 grow text-xs text-indigo-200/65">
-                                                Por usuario/mes, facturado anualmente.
-                                            </div>
-                                            <a
-                                                class="btn-sm relative w-full bg-linear-to-b from-gray-800 to-gray-800/60 bg-[length:100%_100%] bg-[bottom] text-gray-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%]"
-                                                href="#0"
-                                                >Comenzar prueba</a
-                                            >
-                                        </div>
-                                        <p class="mb-4 text-sm italic text-gray-200">Todo lo de Independiente, más:</p>
-                                        <ul class="grow space-y-2 text-sm text-indigo-200/65">
-                                            <li class="flex items-center">
-                                                <svg
-                                                    class="mr-2 h-3 w-3 shrink-0 fill-current text-indigo-500"
-                                                    viewBox="0 0 12 12"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                >
-                                                    <path
-                                                        d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
-                                                    />
-                                                </svg>
-                                                <span>Sin límite de usuarios</span>
-                                            </li>
-                                            <li class="flex items-center">
-                                                <svg
-                                                    class="mr-2 h-3 w-3 shrink-0 fill-current text-indigo-500"
-                                                    viewBox="0 0 12 12"
-                                                    xmlns="http://www.w3.org/2000/svg"
                                                 >
                                                     <path
                                                         d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
@@ -1417,7 +1230,94 @@
                                                 >Comenzar prueba</a
                                             >
                                         </div>
-                                        <p class="mb-4 text-sm italic text-gray-200">Todo lo de Producción avanzada, más:</p>
+                <!-- Pricing -->
+                <!--
+                <section class="relative">
+                    <div
+                        class="pointer-events-none absolute bottom-0 left-1/2 -z-10 -mb-20 -translate-x-1/3"
+                        aria-hidden="true"
+                    >
+                        <img
+                            class="max-w-none"
+                            src="./images/blurred-shape.svg"
+                            width="760"
+                            height="668"
+                            alt="Forma difuminada"
+                        />
+                    </div>
+
+                    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+                        <div
+                            class="border-t py-12 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-400/.25),transparent)1] md:py-20"
+                        >
+                            <!-- Section header -->
+                            <div class="mx-auto max-w-3xl text-center">
+                                <div
+                                    class="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50"
+                                >
+                                    <span
+                                        class="inline-flex bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent"
+                                        >Planes simples</span
+                                    >
+                                </div>
+                                <h2
+                                    class="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-10 font-nacelle text-3xl font-semibold text-transparent md:text-4xl"
+                                >
+                                    Elige el plan adecuado para tu producción
+                                </h2>
+                            </div>
+
+                            <!-- Pricing tables -->
+                            <div x-data="{ isAnnual: true }">
+                                <!-- Pricing toggle -->
+                                <label
+                                    class="mb-16 flex cursor-pointer items-center justify-center gap-4 text-indigo-200/65"
+                                >
+                                    <span class="flex-1 text-right" aria-hidden="true">Facturado anualmente</span>
+                                    <span class="sr-only">Facturado anualmente</span>
+                                    <input
+                                        role="switch"
+                                        type="checkbox"
+                                        class="peer sr-only"
+                                        x-model="isAnnual"
+                                        :checked="isAnnual"
+                                    />
+                                    <div
+                                        class="peer relative h-6 w-11 rounded-full bg-gray-800 after:absolute after:start-[2px] after:top-0.5 after:h-5 after:w-5 after:rounded-full after:bg-gray-200 after:transition-all peer-checked:bg-indigo-500 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus-visible:ring-4 peer-focus-visible:ring-indigo-200"
+                                        aria-hidden="true"
+                                    ></div>
+                                    <span class="flex-1 text-left" aria-hidden="true">Facturado mensualmente</span>
+                                </label>
+
+                                <div
+                                    class="mx-auto grid max-w-xs items-start gap-8 md:max-w-2xl md:grid-cols-2 xl:max-w-none xl:grid-cols-4 xl:gap-6"
+                                >
+                                    <!-- Pricing table 1 -->
+                                    <div
+                                        class="relative flex h-full flex-col rounded-2xl bg-linear-to-br from-gray-900/50 via-gray-800/25 to-gray-900/50 p-5 backdrop-blur-xs before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)]"
+                                    >
+                                        <div
+                                            class="relative mb-4 border-b pb-5 [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-400/.25),transparent)1]"
+                                        >
+                                            <div class="mb-2 font-nacelle text-[1rem] text-gray-200">Independiente</div>
+                                            <div class="mb-1.5 flex items-baseline font-nacelle">
+                                                <span class="text-2xl text-indigo-200/65">$</span>
+                                                <span
+                                                    x-text="isAnnual ? 7 : 9"
+                                                    class="text-4xl font-semibold tabular-nums text-gray-200"
+                                                    >7</span
+                                                >
+                                            </div>
+                                            <div class="mb-4 grow text-xs text-indigo-200/65">
+                                                Por usuario/mes, facturado anualmente.
+                                            </div>
+                                            <a
+                                                class="btn-sm relative w-full bg-linear-to-b from-gray-800 to-gray-800/60 bg-[length:100%_100%] bg-[bottom] text-gray-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%]"
+                                                href="#0"
+                                                >Comenzar prueba</a
+                                            >
+                                        </div>
+                                        <p class="mb-4 text-sm italic text-gray-200">El plan Independiente incluye:</p>
                                         <ul class="grow space-y-2 text-sm text-indigo-200/65">
                                             <li class="flex items-center">
                                                 <svg
@@ -1426,53 +1326,7 @@
                                                     xmlns="http://www.w3.org/2000/svg"
                                                 >
                                                     <path
-                                                        d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
-                                                    />
-                                                </svg>
-                                                <span>Conexión dedicada</span>
-                                            </li>
-                                            <li class="flex items-center">
-                                                <svg
-                                                    class="mr-2 h-3 w-3 shrink-0 fill-current text-indigo-500"
-                                                    viewBox="0 0 12 12"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                >
-                                                    <path
-                                                        d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
-                                                    />
-                                                </svg>
-                                                <span>Primera atención prioritaria</span>
-                                            </li>
-                                            <li class="flex items-center">
-                                                <svg
-                                                    class="mr-2 h-3 w-3 shrink-0 fill-current text-indigo-500"
-                                                    viewBox="0 0 12 12"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                >
-                                                    <path
-                                                        d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
-                                                    />
-                                                </svg>
-                                                <span>Historial de atributos</span>
-                                            </li>
-                                            <li class="flex items-center">
-                                                <svg
-                                                    class="mr-2 h-3 w-3 shrink-0 fill-current text-indigo-500"
-                                                    viewBox="0 0 12 12"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                >
-                                                    <path
-                                                        d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"
-                                                    />
-                                                </svg>
-                                                <span>Comparativas temporales</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Single testimonial -->
+                                                        d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l
                             <div class="mx-auto max-w-3xl">
                                 <div class="pt-12 md:pt-20">
                                     <div class="text-center">
